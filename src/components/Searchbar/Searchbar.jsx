@@ -25,10 +25,7 @@ class Searchbar extends Component {
     const { query } = this.state;
     e.preventDefault();
     if (query.trim() === '') {
-      toast.error(
-        'Please, enter correct search word!'
-        // { icon: false }
-      );
+      toast.error('Please, enter correct search word!');
       return;
     }
     this.props.onSubmit(query);

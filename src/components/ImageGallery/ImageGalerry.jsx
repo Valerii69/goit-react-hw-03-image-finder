@@ -109,21 +109,4 @@ class ImageGallery extends Component {
   }
 }
 
-// Gallery.propTypes = {
-//   largeImageURL: PropTypes.string.isRequired,
-//   webformatURL: PropTypes.string.isRequired,
-//   id: PropTypes.string.isRequired,
-//   tags: PropTypes.string.isRequired,
-// };
-
-// ContactsList.propTypes = {
-//   contacts: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       name: PropTypes.string.isRequired,
-//       number: PropTypes.string.isRequired,
-//       id: PropTypes.string.isRequired,
-//     }).isRequired
-//   ).isRequired,
-//   deleteContact: PropTypes.func.isRequired,
-
 export default ImageGallery;
