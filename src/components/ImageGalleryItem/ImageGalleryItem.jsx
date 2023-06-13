@@ -24,8 +24,9 @@ class ImageGalleryItem extends PureComponent {
     const { showModal } = this.state;
     const { id, largeImageURL, webformatURL, tags } = this.props;
     return (
-      <GalleryItem onClick={this.toggleModal}>
+      <GalleryItem>
         <GalleryItemImage
+          onClick={this.toggleModal}
           id={id}
           src={webformatURL}
           alt={tags}

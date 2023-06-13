@@ -8,11 +8,11 @@ export class Modal extends Component {
   static propTypes = {
     onClose: PropTypes.func.isRequired,
   };
-  //слухач подій модалки
+  //монтування з слухачем подій модалки
   componentDidMount() {
     window.addEventListener('keydown', this.handleKeydownCloseModal);
   }
-
+  //розмонтування  з слухачем подій модалки
   componentWillUnmount() {
     window.removeEventListener('keydown', this.handleKeydownCloseModal);
   }

@@ -8,7 +8,7 @@ export async function fetchGalleryImages(query, page) {
   const PARAMS = new URLSearchParams({
     q: `${query}`,
     page: `${page}`,
-    key: '31431099-cb6424a99d97f67db3bc0cdc7',
+    key: '31107721-7ee60bad5b686af5fdf0a833c',
     image_type: 'photo',
     orientation: 'horizontal',
     per_page: 12,

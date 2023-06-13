@@ -13,7 +13,7 @@ export const Gallery = styled.ul`
   margin-right: auto;
 `;
 
-export const Message = styled.p`
-  margin: 20px auto 0;
-  font-size: 20px;
-`;
+// export const Message = styled.p`
+//   margin: 20px auto 0;
+//   font-size: 20px;
+// `;
